@@ -1,0 +1,17 @@
+/* Buttons */
+
+.button {
+  background-color: #9333ea;
+  /* border: 2px solid var(--purple-600); */
+  border-radius: 8px;
+  padding: 16px;
+  width: 168px;
+  height: 56px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #fff;
+}

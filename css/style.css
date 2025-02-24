@@ -1,0 +1,41 @@
+@import url("font.css");
+@import url("null.css");
+@import url("components.css");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  min-height: 100%;
+  color: var(--white);
+  background-color: var(--primary-BG);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Обрізає вміст, який виходить за межі елемента, без відображення смуг прокрутки. Це схоже на overflow: hidden;, але без можливості прокрутки. */
+  overflow: clip;
+}
+/* .wrapper > header {
+    flex: 1 1 auto;
+} */
+/* властивість flex-row розтягує main завжди на всю висоту вьюпрту, тим самим притискає footer донизу екрану */
+.wrapper > main {
+  flex: 1 1 auto;
+}
+/* селектор атрибуту класу */
+[class*="__container"] {
+  /* розширили обмеж контейнер на величину паддінгів зліва та справа */
+  max-inline-size: 1310px;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --primary-BG: #0f172a;
+  --second-BG: #9333ea;
+  --white: #fff;
+}
