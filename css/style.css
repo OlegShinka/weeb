@@ -38,4 +38,147 @@ body {
   --primary-BG: #0f172a;
   --second-BG: #9333ea;
   --white: #fff;
+  --Purple-600: #9333ea;
+}
+
+/* HEADER  ======================================================================== */
+
+.header__page {
+  padding-block-start: 24px;
+  margin-block-end: 80px;
+}
+.header__container {
+}
+.header__body {
+  display: flex;
+  column-gap: 46px;
+  justify-content: space-between;
+  align-items: center;
+  max-inline-size: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  /* Shadow/Dark/XXL */
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-inline: 24px;
+  padding-block: 24px;
+}
+
+.header__logo-link {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.1;
+  transition: 0.3s all ease;
+}
+.header__logo-link:hover {
+  color: #4e1187;
+}
+
+/* flex-grow розтягує меню на всю шир headr_body */
+.header__menu {
+  flex: 1 1 auto;
+}
+
+.menu {
+}
+
+.menu__list {
+  display: flex;
+  column-gap: 32px;
+  flex-wrap: wrap;
+}
+
+.menu__item {
+}
+
+.menu__link {
+  font-style: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  transition: 0.3s all ease;
+}
+.menu__link:hover {
+  color: #4e1187;
+}
+
+.header__actions {
+}
+
+.actions-header {
+}
+.actions-header__button {
+}
+
+.actions-header__button:not(:last-child) {
+  margin-inline-end: 16px;
+}
+
+/* section HERO ======================================================== */
+
+.hero__page {
+  margin-block-end: 80px;
+}
+.hero {
+}
+.hero__container {
+}
+.hero__content {
+  margin-block-end: 80px;
+}
+
+.hero__title {
+  color: var(--white);
+  text-align: center;
+
+  /* Heading/1 M */
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-block-end: 32px;
+}
+.hero__title span {
+  color: var(--Purple-600);
+}
+.hero__text {
+  color: var(--White);
+  text-align: center;
+  max-inline-size: 780px;
+  margin-inline: auto;
+  margin-block-end: 32px;
+  /* Body/L */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.hero__actions {
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+.hero__button {
+}
+
+.button--transparent {
+}
+.hero__decor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+.hero__bottom {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+.hero__image {
+  display: block;
 }
