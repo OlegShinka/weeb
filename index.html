@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Weeb</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -14,12 +14,11 @@
             <a href="" class="header__logo-link">weeb</a>
             <nav class="header__menu menu">
               <button type="button" class="menu-close">
-                <svg width="30" heigth="30" class="icon-close">
+                <svg width="30" height="30" class="icon-close">
                   <use href="./img/svg/icons.svg#icon-close"></use>
                 </svg>
               </button>
               <ul class="menu__list">
-                
                 <li class="menu__item">
                   <a href="#" class="menu__link">About Us</a>
                 </li>
@@ -37,24 +36,22 @@
                 <a
                   href="#"
                   class="actions-menu__button button button--transparent button--mini"
+                  >Log In</a
                 >
-                  Log In
-                </a>
-                <a href="#" class="actions-menu__button button button--mini">
-                  Join Now
-                </a>
+                <a href="#" class="actions-menu__button button button--mini"
+                  >Join Now</a
+                >
               </div>
             </nav>
             <div class="header__actions actions-header">
               <a
                 href="#"
                 class="actions-header__button button button--transparent button--mini"
+                >Log In</a
               >
-                Log In
-              </a>
-              <a href="#" class="actions-header__button button button--mini">
-                Join Now
-              </a>
+              <a href="#" class="actions-header__button button button--mini"
+                >Join Now</a
+              >
             </div>
             <button type="button" class="actions-header__button icon-menu">
               <img src="./img/svg/menu.png" alt="menu" />
@@ -66,7 +63,12 @@
         <section class="page__hero hero">
           <div class="hero__container">
             <div class="hero__block-header block-header">
-              <h1 class="block-header__title block-header__title-center">Design <span class="block-header__title-bottom-line">Faster</span> <span class="block-header__title-purple">&</span> <span class="block-header__title-top-line">Better</span></h2>
+              <h1 class="block-header__title block-header__title-center">
+                Design
+                <span class="block-header__title-bottom-line">Faster</span>
+                <span class="block-header__title-purple">&</span>
+                <span class="block-header__title-top-line">Better</span>
+              </h1>
               <div class="block-header__text">
                 <p>
                   Sit elit feugiat turpis sed integer integer accumsan turpis.
@@ -86,24 +88,94 @@
                 </button>
               </div>
             </div>
-            <div class="hero__decor">
-              <!-- <div class="hero__top">
-                <img src="./img/hero/Top Bar.jpg" class="hero__image" alt="" />
+            <div class="hero__decor"></div>
+            <img src="./img/hero/Desktop.svg" alt="" class="hero__image" />
+          </div>
+        </section>
+        <section class="page__join join">
+          <div class="join__container">
+            <h2 class="join__title">Join Leading Companies</h2>
+            <ul class="join__items">
+              <li class="join__item">
+                <a href="" class="join__link">
+                  <svg class="join__icon" width="40" height="40">
+                    <use href="./img/svg/icons.svg#icon-01"></use>
+                  </svg>
+                  <h4 class="join__label">SmartFinder</h4>
+                </a>
+              </li>
+              <li class="join__item">
+                <a href="" class="join__link">
+                  <svg class="join__icon" width="40" height="40">
+                    <use href="./img/svg/icons.svg#icon-02"></use>
+                  </svg>
+                  <h4 class="join__label">Zoomerr</h4>
+                </a>
+              </li>
+              <li class="join__item">
+                <a href="" class="join__link">
+                  <svg class="join__icon" width="40" height="40">
+                    <use href="./img/svg/icons.svg#icon-03"></use>
+                  </svg>
+                  <h4 class="join__label">SHELLS</h4>
+                </a>
+              </li>
+              <li class="join__item">
+                <a href="" class="join__link">
+                  <svg class="join__icon" width="40" height="40">
+                    <use href="./img/svg/icons.svg#icon-04"></use>
+                  </svg>
+                  <h4 class="join__label">WAVES</h4>
+                </a>
+              </li>
+              <li class="join__item">
+                <a href="" class="join__link">
+                  <svg class="join__icon" width="40" height="40">
+                    <use href="./img/svg/icons.svg#icon-05"></use>
+                  </svg>
+                  <h4 class="join__label">ArtVenue</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page__discover discover">
+          <div class="discover__container">
+            <div class="discover__body">
+              <div class="discover__column">
+                <h3 class="discover__subtitle">DISCOVER</h3>
+                <h2 class="discover__title">
+                  <span class="discover__title-purple">Unlimited</span>
+                  <span class="discover__title-rect">ideas</span> for your next
+                  great projects
+                </h2>
+                <div class="discover__text">
+                  <p>
+                    Scelerisque auctor dolor diam tortor, fames faucibus non
+                    interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum
+                    molestie adipiscing lacinia.
+                  </p>
+                </div>
+                <div class="discover__actions actions-discover">
+                  <div class="actions-discover_label">Discover Ideas</div>
+                  <a href="#" class="actions__discover__link">
+                    <img src="./img/svg/arrow-right.svg" alt="arrow right" />
+                  </a>
+                </div>
               </div>
-              <div class="hero__bottom">
+              <div class="discover__shapes">
                 <img
-                  src="./img/hero/Desktop-App-Placeholder-1.jpg"
-                  alt="desktop"
-                  class="hero__image"
-                  height="700"
+                  src="./img/svg/Shapes.svg"
+                  alt="shapes"
+                  width="375"
+                  heigth="379"
                 />
-              </div> -->
-              <img src="./img/hero/Desktop.svg" alt="" class="hero__image" />
+              </div>
             </div>
           </div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">FOOTER</footer>
     </div>
     <script src="js/script.js"></script>
   </body>
