@@ -420,7 +420,7 @@ body {
   .discover__body {
     justify-content: flex-start;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 48px;
   }
 }
@@ -526,7 +526,7 @@ body {
 /* декор стрілка стиліз. чз background */
 .actions-discover__link {
   padding-right: 35px;
-  background: url("/img/svg/arrow-right.svg") right no-repeat;
+  background: url("../img/svg/arrow-right.svg") right no-repeat;
 }
 
 /* оригінальний хавер у вигляді зростаючого підкреслення */
