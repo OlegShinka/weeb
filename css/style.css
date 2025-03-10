@@ -73,8 +73,7 @@ body {
   top: 0;
   left: 0;
 }
-.header__container {
-}
+
 .header__body {
   display: flex;
   column-gap: 46px;
@@ -208,11 +207,6 @@ body {
   }
 }
 
-.actions-header {
-}
-.actions-header__button {
-}
-
 @media screen and (max-width: 991.98px) {
   .header__page {
     padding-block: 16px;
@@ -330,12 +324,6 @@ body {
   }
 }
 
-.block-header__button {
-}
-
-.button--transparent {
-}
-
 .hero__image {
   display: block;
   margin: 0 auto;
@@ -347,12 +335,6 @@ body {
 
 /* section JOIN ================================== */
 
-.page__join {
-}
-.join {
-}
-.join__container {
-}
 .join__title {
   text-align: center;
   font-size: 56px;
@@ -414,9 +396,6 @@ body {
 }
 
 /* section DISCOVER ===================================== */
-
-.discover {
-}
 
 .discover__body {
   display: flex;
@@ -510,21 +489,7 @@ body {
   }
 }
 
-.discover__shapes {
-}
-
-.discover__image {
-  /* width: 375px;
-  height: 379px; */
-}
-
 /* section POWERFUL ===========================================*/
-
-.page__powerful {
-}
-
-.powerful {
-}
 
 .powerful__body {
   display: flex;
@@ -534,12 +499,13 @@ body {
 @media screen and (max-width: 991.98px) {
   .powerful__body {
     gap: 40px;
+    align-items: center;
   }
 }
 @media screen and (max-width: 761.98px) {
   .powerful__body {
     justify-content: flex-start;
-    align-items: center;
+
     flex-direction: column-reverse;
     gap: 48px;
   }
@@ -588,5 +554,163 @@ body {
     margin: 0 auto;
   }
 }
-.powerful_picture {
+
+/* section CUSTOMERS ================================================= */
+
+.customers__body {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 80px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .customers__body {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 761.98px) {
+  .customers__body {
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 48px;
+    justify-content: center;
+  }
+}
+
+.customers-header {
+  max-width: 800px;
+}
+
+.customers__title-rect {
+  position: relative;
+}
+.customers__title-rect::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: -3%;
+  height: 100%;
+  width: 25%;
+  background-color: #c2410c;
+  /* border: 5px solid #c2410c; */
+}
+.block-header__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--white);
+  max-width: 581px;
+}
+
+@media screen and (max-width: 761.98px) {
+  .customers__body {
+  }
+  .customers__column {
+    justify-content: center;
+    align-items: center;
+  }
+  .customers__title {
+    text-align: center;
+    font-size: 56px;
+  }
+  .customers__subtitle {
+    text-align: center;
+  }
+  .customers__text {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 461.98px) {
+  .customers__body {
+    justify-content: center;
+  }
+  .customers__column {
+    justify-content: center;
+    align-items: center;
+  }
+  .customers__title {
+    text-align: center;
+    font-size: 40px;
+  }
+  .customers__subtitle {
+    text-align: center;
+  }
+  .customers__text {
+    font-style: 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .actions-customers {
+    text-align: center;
+  }
+}
+/* section SPEED ================================================= */
+
+.speed__body {
+  display: flex;
+  gap: 80px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .speed__body {
+    gap: 40px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 761.98px) {
+  .speed__body {
+    justify-content: flex-start;
+
+    flex-direction: column-reverse;
+    gap: 48px;
+  }
+}
+
+.speed__column {
+  max-width: 480px;
+}
+
+.speed__title {
+  font-size: 56px;
+}
+
+.speed__title span {
+  position: relative;
+}
+
+@media screen and (max-width: 461.98px) {
+  .speed__body {
+    justify-content: center;
+  }
+  .speed__column {
+    justify-content: center;
+    align-items: center;
+  }
+  .speed__title {
+    text-align: center;
+    font-size: 40px;
+  }
+  .speed__title span::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: 25%;
+    width: 110%;
+    height: 100%;
+    border: 3px solid #c2410c;
+    z-index: -2;
+  }
+  .speed__subtitle {
+    text-align: center;
+  }
+  .speed__text {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
