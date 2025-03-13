@@ -84,7 +84,7 @@
   text-wrap: balance;
   line-height: 110%;
   color: var(--purple-400);
-  margin-block-end: 32px;
+  /* margin-block-end: 32px; */
   letter-spacing: -2px;
 }
 
