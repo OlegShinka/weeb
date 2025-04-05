@@ -984,8 +984,8 @@ body {
   gap: 48px;
 }
 .nav-footer__menu {
-  /* min-width: 210px; */
-  flex-basis: 210px`;
+  min-width: 210px;
+  /* flex-basis: 210px; */
 }
 
 .nav-footer_title {
